@@ -1,0 +1,168 @@
+body {
+  background-color: #ffffff;
+  text-align: center;
+  /* justify-content: center; */
+  font-family: sans-serif;
+}
+table.upper {
+  margin-left: 15%;
+}
+table.lower {
+  margin-top: 2%;
+  margin-left: 27%;
+}
+h1.heading {
+  color: rgb(124, 139, 54);
+}
+.no {
+  text-align: left;
+  font-size: smaller;
+  margin-left: 2px;
+}
+.symbol {
+  font-size: larger;
+}
+.name {
+  font-size: small;
+}
+td {
+  border-radius: 10%;
+  height: 55px;
+  width: 55px;
+}
+td.null {
+  background-color: #ffffff;
+}
+.noble-gass {
+  color: rgb(213, 40, 108);
+  background-color: rgb(251, 231, 235);
+}
+.reactive-non-metal {
+  color: rgb(0, 27, 240);
+  background-color: rgb(226, 238, 255);
+}
+.lanthanides {
+  color: rgb(5, 34, 54);
+  background-color: rgb(186, 222, 247);
+}
+.actinides {
+  color: rgb(199, 52, 3);
+  background-color: rgb(255, 230, 212);
+}
+.transition-metal {
+  color: rgb(102, 73, 238);
+  background-color: rgb(226, 223, 245);
+}
+.alkaline-earth-metal {
+  color: rgb(215, 0, 36);
+  background-color: rgb(245, 232, 232);
+}
+.metalloids {
+  color: rgb(105, 94, 19);
+  background-color: rgb(247, 237, 172);
+}
+.unknown {
+  color: rgb(85, 66, 78);
+  background-color: rgb(231, 231, 234);
+}
+.alkali-metal {
+  color: rgb(11, 114, 130);
+  background-color: rgb(208, 241, 247);
+}
+.post-transition {
+  color: rgb(20, 47, 21);
+  background-color: rgb(214, 249, 232);
+}
+/* table 1 and table 2 done  */
+table.reference {
+  margin-left: 25%;
+  width: auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+h2 {
+  color: rgb(140, 40, 186);
+}
+.reference td {
+  width: 200px;
+ /* font-weight: bold; */
+}
+.reference div::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid;
+  margin-right: 5px;
+}
+.reference div.c1::before {
+  border-color: rgb(11, 114, 130);
+  background-color: rgb(208, 241, 247);
+}
+.c1 {
+  color: rgb(11, 114, 130);
+}
+.reference div.c2::before {
+  border-color: rgb(215, 0, 36);
+  background-color: rgb(245, 232, 232);
+}
+.c2 {
+  color: rgb(215, 0, 36);
+}
+.reference div.c3::before {
+  border-color: rgb(102, 73, 238);
+  background-color: rgb(226, 223, 245);
+}
+.c3 {
+  color: rgb(102, 73, 238);
+}
+.reference div.c4::before {
+  border-color: rgb(20, 47, 21);
+  background-color: rgb(214, 249, 232);
+}
+.c4 {
+  color: rgb(20, 47, 21);
+}
+.reference div.c5::before {
+  border-color: rgb(105, 94, 19);
+  background-color: rgb(247, 237, 172);
+}
+.c5 {
+  color: rgb(105, 94, 19);
+}
+.reference div.c6::before {
+  border-color: rgb(0, 27, 240);
+  background-color: rgb(226, 238, 255);
+}
+.c6 {
+  color: rgb(0, 27, 240);
+}
+.reference div.c7::before {
+  border-color: rgb(213, 40, 108);
+  background-color: rgb(251, 231, 235);
+}
+.c7 {
+  color: rgb(213, 40, 108);
+}
+.reference div.c8::before {
+  border-color: rgb(5, 34, 54);
+  background-color: rgb(186, 222, 247);
+}
+.c8 {
+  color: rgb(5, 34, 54);
+}
+.reference div.c9::before {
+  border-color: rgb(199, 52, 3);
+  background-color: rgb(255, 230, 212);
+}
+.c9 {
+  border-color: rgb(199, 52, 3);
+}
+.reference div.c10::before {
+  border-color: rgb(85, 66, 78);
+  background-color: rgb(231, 231, 234);
+}
+.c10 {
+  border-color: rgb(85, 66, 78);
+}
